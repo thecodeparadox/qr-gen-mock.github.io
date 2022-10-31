@@ -1,1 +1,1 @@
-# qr-gen-mock.github.io
+# qr-gen-mock
