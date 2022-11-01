@@ -24,7 +24,7 @@ document.addEventListener('alpine:init', () => {
         this.qr_image = default_qr;
         return;
       }
-      this.code = `URLTO:${this.url}`;
+      this.code = this.url + '';
 
       QRCode.toDataURL(
         this.code,
